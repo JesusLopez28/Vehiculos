@@ -40,7 +40,7 @@ class ViewDataActivity : AppCompatActivity() {
     }
 
     private fun fetchVehicles() {
-        val url = "http://192.168.3.8/api.php?action=getAll"
+        val url = "http://192.168.137.91/api.php?action=getAll"
         val client = OkHttpClient()
         val request = Request.Builder().url(url).build()
 

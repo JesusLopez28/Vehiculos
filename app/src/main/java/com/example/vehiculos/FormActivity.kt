@@ -45,7 +45,7 @@ class FormActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            val url = "http://192.168.3.8/api.php?action=insert"
+            val url = "http://192.168.137.91/api.php?action=insert"
             val requestBody = FormBody.Builder()
                 .add("marca", brand)
                 .add("modelo", model)
